@@ -146,3 +146,21 @@ a:active {
     background-color: black;
     font-style: italic;
 }
+
+/*  Resolving conflicts  */
+#copyright {
+    color: yellow;
+}
+
+.copyright {
+    color: red;
+}
+
+.text {
+    color: green;
+}
+
+footer p {
+    /* color: blue !important;  <<  NOT A GOOD PRACTICE   */
+    color: blue;
+}
