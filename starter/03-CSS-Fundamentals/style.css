@@ -1,6 +1,14 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+    font-family: sans-serif;
+}
+
 h1 {
     font-size: 26px;
-    font-family: sans-serif;
     text-transform: uppercase;
     font-style: italic;
 }
@@ -31,4 +39,14 @@ p {
 li {
     font-family: sans-serif;
     font-size: 20px;
+}
+
+/* css descendants are actually a bad practice */
+footer p {
+    font-size: 16px;
+}
+
+/* css descendants are actually a bad practice */
+article header p {
+    font-style: italic;
 }
