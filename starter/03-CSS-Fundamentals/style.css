@@ -118,10 +118,31 @@ this will not work because paragraph is not the first child of our article
 article p:first-child {
     color: red;
 } 
-*/
 
-/* but this is gonna work, because paragraph is the last child of our article */
+but this is gonna work, because paragraph is the last child of our article
 
 article p:last-child {
     color: red;
+}
+*/
+
+/* Styling links */
+a:link {
+    color: #1098ad;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1098ad;
+}
+
+a:hover {
+    color: orangered;
+    font-weight: bold;
+    text-decoration: underline orangered;
+}
+
+a:active {
+    background-color: black;
+    font-style: italic;
 }
