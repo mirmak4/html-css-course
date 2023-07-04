@@ -95,3 +95,33 @@ aside {
 a {
     color: azure;
 } */
+
+/* .first-li {
+    font-weight: bold;
+} */
+
+li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    font-style: italic;
+}
+
+li:nth-child(even) {
+    /* color: red; */
+}
+
+/* 
+this will not work because paragraph is not the first child of our article
+
+article p:first-child {
+    color: red;
+} 
+*/
+
+/* but this is gonna work, because paragraph is the last child of our article */
+
+article p:last-child {
+    color: red;
+}
