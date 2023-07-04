@@ -42,11 +42,29 @@ li {
 }
 
 /* css descendants are actually a bad practice */
-footer p {
+/* footer p {
+    font-size: 16px;
+} */
+
+/* css descendants are actually a bad practice */
+/* article header p {
+    font-style: italic;
+} */
+
+#author {
+    font-style: italic;
+    font-size: 18px;
+}
+
+#copyright {
     font-size: 16px;
 }
 
-/* css descendants are actually a bad practice */
-article header p {
-    font-style: italic;
+.related-author {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.related {
+    list-style: none;
 }
