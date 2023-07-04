@@ -1,11 +1,12 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
-    font-family: sans-serif;
+* {
+    /* border-top: 10px solid #1098ad; */
+}
+
+/*  Inheritance example  */
+body {
     color: #444;
+    font-family: sans-serif;
+    border-top: 10px solid #1098ad;
 }
 
 h1,
@@ -100,6 +101,7 @@ a {
     font-weight: bold;
 } */
 
+/*  Pseudo Classes  */
 li:first-child {
     font-weight: bold;
 }
@@ -163,4 +165,9 @@ a:active {
 footer p {
     /* color: blue !important;  <<  NOT A GOOD PRACTICE   */
     color: blue;
+}
+
+/*  Inheritance example  */
+nav {
+    font-size: 18px;
 }
