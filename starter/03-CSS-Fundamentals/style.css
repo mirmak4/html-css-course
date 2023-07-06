@@ -33,6 +33,7 @@ body {
 /*  Inheritance example  */
 nav {
     font-size: 18px;
+    text-align: center;
 }
 
 .post-header {
