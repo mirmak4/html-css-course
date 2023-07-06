@@ -204,6 +204,7 @@ a:active {
     height: auto;
 }
 
+/*  Good Selector Example  */
 nav a:link {
     /*  Inline To Block level Elements Behavior Demo  */
     /* background-color: orangered;
@@ -215,6 +216,11 @@ nav a:link {
     margin-top: 10px;
     display: inline-block;
 }
+
+/*  Antipattern Selector Example  */
+/* .main-header nav a:link {
+    margin-top: 100px;
+} */
 
 nav a:link:last-child {
     margin-right: 0;
