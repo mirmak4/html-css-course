@@ -8,6 +8,7 @@
 
     -   Challenge #1: https://codepen.io/mirmak4/pen/wvQqKYG
     -   Challenge #2: https://codepen.io/mirmak4/pen/oNQerZd
+    -   Challenge #3: https://codepen.io/mirmak4/pen/PoxJNjQ
 
 # Course Material and FAQ for "Build Responsive Real-World Websites with HTML and CSS"
 
