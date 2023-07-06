@@ -231,6 +231,34 @@ nav a:link:last-child {
     right: 50px;
 }
 
+.website-title::first-letter {
+    font-style: normal;
+    margin-right: 5px;
+}
+
+/*  Adjacent Sibling  */
+h3 + p::first-line {
+    /* color: red; */
+}
+
+.post-title {
+    /* background-color: orange; */
+    position: relative;
+}
+
+.post-title::before {
+    content: "TOP";
+    background-color: #ffe70e;
+    color: #444;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    top: -15px;
+    right: -25px;
+}
+
 /*  Resolving conflicts  */
 #copyright {
     color: yellow;
