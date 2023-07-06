@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-/*  Inheritance example  */
+/*  PAGE SECTIONS  */
 body {
     color: #444;
     font-family: sans-serif;
@@ -25,7 +25,7 @@ body {
     padding-right: 40px; */
     padding: 20px 40px;
     margin-bottom: 60px;
-    height: 80px;
+    /* height: 80px; */
 }
 
 /*  Inheritance example  */
@@ -49,6 +49,7 @@ aside {
     width: 500px;
 }
 
+/*  SMALLER ELEMENTS  */
 h1,
 h2,
 h3 {
@@ -82,6 +83,9 @@ p {
     font-size: 22px;
     line-height: 1.5;
     margin-bottom: 15px;
+
+    /*  Block to Inline level Elements Behavior Demo  */
+    /* display: inline; */
 }
 
 ul,
@@ -93,6 +97,9 @@ ol {
 li {
     font-size: 20px;
     margin-bottom: 10px;
+
+    /*  Block to Inline level Elements Behavior Demo  */
+    /* display: inline; */
 }
 
 li:last-child {
@@ -191,6 +198,22 @@ a:active {
 .post-image {
     width: 100%;
     height: auto;
+}
+
+nav a:link {
+    /*  Inline To Block level Elements Behavior Demo  */
+    /* background-color: orangered;
+    margin: 20px;
+    padding: 20px;
+    display: block; */
+
+    margin-right: 30px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+nav a:link:last-child {
+    margin-right: 0;
 }
 
 /*  Resolving conflicts  */
