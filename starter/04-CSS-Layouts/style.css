@@ -26,7 +26,7 @@ body {
   padding-left: 40px;
   padding-right: 40px; */
     padding: 20px 40px;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
     /* height: 80px; */
 }
 
@@ -36,7 +36,7 @@ nav {
 }
 
 article {
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
 }
 
 .post-header {
@@ -333,15 +333,17 @@ nav p {
 /*  CSS GRID APPROACH  */
 .container {
     display: grid;
-    /* grid-template-rows: 1fr 1fr 1fr; */
-    grid-template-columns: 825fr 300fr;
-    row-gap: 25px;
+    /* NO GRID TEMPLATE ROWS
+    we just allow css grid to auto adjust row heights according to their content */
+    grid-template-columns: 1fr 300px;
+    row-gap: 60px;
     column-gap: 75px;
+    align-items: start;
 }
 
 .main-header {
     grid-column: 1 / -1;
-    grid-row: 1 / 2;
+    margin-bottom: 0;
 }
 
 .copyright {
@@ -349,5 +351,5 @@ nav p {
 }
 
 .related-posts {
-    align-self: start;
+    /* align-self: start; */
 }
