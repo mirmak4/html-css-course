@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    width: 800px;
+    width: 1200px;
     /* margin-left: auto;
   margin-right: auto; */
     margin: 0 auto;
@@ -296,7 +296,7 @@ nav p {
 }
 
 .related-posts {
-    /* width: 300px; */
+    flex: 0 0 300px;
 }
 
 .related-author {
@@ -313,4 +313,17 @@ nav p {
     font-style: normal;
     margin-bottom: 5px;
     display: block;
+}
+
+.post-container {
+    display: flex;
+    gap: 75px;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.post-body {
+    /* flex-grow: 5; */
+    flex: 1;
+    margin-bottom: 0;
 }
