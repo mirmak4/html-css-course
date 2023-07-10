@@ -295,10 +295,6 @@ nav p {
     margin-top: 40px;
 }
 
-.related-posts {
-    flex: 0 0 300px;
-}
-
 .related-author {
     /* margin-top: 15px; */
     margin-bottom: 0;
@@ -315,6 +311,8 @@ nav p {
     display: block;
 }
 
+/*  FLEXBOX APPROACH  */
+/*
 .post-container {
     display: flex;
     gap: 75px;
@@ -323,7 +321,33 @@ nav p {
 }
 
 .post-body {
-    /* flex-grow: 5; */
     flex: 1;
     margin-bottom: 0;
+}
+
+.related-posts {
+  flex: 0 0 300px;
+}
+*/
+
+/*  CSS GRID APPROACH  */
+.container {
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-columns: 825fr 300fr;
+    row-gap: 25px;
+    column-gap: 75px;
+}
+
+.main-header {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+}
+
+.copyright {
+    grid-column: 1 / -1;
+}
+
+.related-posts {
+    align-self: start;
 }
