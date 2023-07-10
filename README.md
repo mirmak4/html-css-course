@@ -13,6 +13,7 @@
 -   Section 4 code pens:
 
     -   Challenge #1: https://codepen.io/mirmak4/pen/dyQVRWe
+    -   Challenge #2: https://codepen.io/mirmak4/pen/xxQPYeZ
 
 # Course Material and FAQ for "Build Responsive Real-World Websites with HTML and CSS"
 
